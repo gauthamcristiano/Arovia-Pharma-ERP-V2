@@ -125,3 +125,55 @@ header p{
     color:#94a3b8;
     border:2px dashed #334155;
 }
+
+/* Topbar */
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.topbar p{
+    color:#94a3b8;
+    margin-top:6px;
+}
+
+.top-actions{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.icon-btn{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:#1e293b;
+    color:white;
+    font-size:18px;
+}
+
+.icon-btn:hover{
+    background:#22c55e;
+}
+
+.profile-card{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:#1e293b;
+    padding:8px 18px;
+    border-radius:40px;
+}
+
+.profile-card img{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+}
+
+.profile-card small{
+    color:#94a3b8;
+}
