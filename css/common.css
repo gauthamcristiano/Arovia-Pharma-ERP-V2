@@ -1,1 +1,36 @@
+/* ===========================
+   GLOBAL STYLES
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0B1220;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+    font-family:'Poppins',sans-serif;
+}
+
+input{
+    outline:none;
+    border:none;
+    font-family:'Poppins',sans-serif;
+}
