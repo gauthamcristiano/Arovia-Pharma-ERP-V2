@@ -1,1 +1,127 @@
+.dashboard{
+    display:flex;
+    min-height:100vh;
+}
 
+/* Sidebar */
+
+.sidebar{
+    width:270px;
+    background:#111827;
+    padding:30px;
+    border-right:1px solid #1f2937;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.logo img{
+    width:70px;
+    margin-bottom:12px;
+}
+
+.logo h2{
+    color:#22c55e;
+}
+
+.sidebar ul li{
+    padding:16px;
+    border-radius:12px;
+    margin-bottom:12px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.sidebar ul li i{
+    width:30px;
+}
+
+.sidebar ul li:hover,
+.sidebar .active{
+    background:#22c55e;
+}
+
+/* Main */
+
+.main{
+    flex:1;
+    padding:40px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+header h1{
+    font-size:34px;
+}
+
+header p{
+    color:#94a3b8;
+}
+
+.profile{
+    background:#1e293b;
+    padding:12px 22px;
+    border-radius:30px;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:34px;
+    color:#22c55e;
+    margin-bottom:18px;
+}
+
+.card h2{
+    font-size:34px;
+}
+
+.card p{
+    margin-top:8px;
+    color:#94a3b8;
+}
+
+/* Chart */
+
+.chart{
+    margin-top:40px;
+}
+
+.chart h2{
+    margin-bottom:20px;
+}
+
+.chart-area{
+    height:320px;
+    background:#1e293b;
+    border-radius:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#94a3b8;
+    border:2px dashed #334155;
+}
